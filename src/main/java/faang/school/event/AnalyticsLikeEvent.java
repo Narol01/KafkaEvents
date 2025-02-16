@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LikeEvent implements Event {
+public class AnalyticsLikeEvent implements Event {
     private Long postId;
     private Long userId;
     private Long authorId;
